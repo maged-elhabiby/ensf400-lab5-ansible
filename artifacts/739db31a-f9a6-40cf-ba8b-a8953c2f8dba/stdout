@@ -1,0 +1,22 @@
+[1;35m[WARNING]: Ansible is being run in a world writable directory[0m
+[1;35m(/workspaces/ensf400-lab5-ansible), ignoring it as an ansible.cfg source. For[0m
+[1;35mmore information see[0m
+[1;35mhttps://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-[0m
+[1;35mworld-writable-dir[0m
+
+PLAY [Ping hosts] **************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[1;31mfatal: [managedhost-app-2]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: root@0.0.0.0: Permission denied (publickey,password,keyboard-interactive).", "unreachable": true}[0m
+[1;31mfatal: [managedhost-app-1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: root@0.0.0.0: Permission denied (publickey,password,keyboard-interactive).", "unreachable": true}[0m
+[1;31mfatal: [managedhost-app-3]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: root@0.0.0.0: Permission denied (publickey,password,keyboard-interactive).", "unreachable": true}[0m
+[0;32mok: [localhost][0m
+
+TASK [Ping] ********************************************************************
+[0;32mok: [localhost][0m
+
+PLAY RECAP *********************************************************************
+[0;32mlocalhost[0m                  : [0;32mok=2   [0m changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+[0;31mmanagedhost-app-1[0m          : ok=0    changed=0    [1;31munreachable=1   [0m failed=0    skipped=0    rescued=0    ignored=0   
+[0;31mmanagedhost-app-2[0m          : ok=0    changed=0    [1;31munreachable=1   [0m failed=0    skipped=0    rescued=0    ignored=0   
+[0;31mmanagedhost-app-3[0m          : ok=0    changed=0    [1;31munreachable=1   [0m failed=0    skipped=0    rescued=0    ignored=0   

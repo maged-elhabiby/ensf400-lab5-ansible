@@ -49,6 +49,7 @@
     command: forever start /node-app/app.js
     when: "forever_list.stdout.find('/node-app/app.js') == -1"
 
+# Third Play - Running Nginx
 # Third Play - Runing Nginx
 - name: Set up Nginx load balancer
   hosts: loadbalancer
@@ -59,4 +60,3 @@
       name: nginx
       state: latest
     when: ansible_connection == "local" and ansible_os_family == "Alpine"
-
