@@ -58,4 +58,5 @@
     apt:
       name: nginx
       state: latest
-    when: ansible_connection == "local"
+    when: ansible_connection == "local" and ansible_os_family == "Alpine"
+
