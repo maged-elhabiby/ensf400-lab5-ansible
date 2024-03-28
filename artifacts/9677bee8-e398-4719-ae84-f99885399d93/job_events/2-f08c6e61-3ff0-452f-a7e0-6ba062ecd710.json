@@ -1,1 +1,0 @@
-{"event": "verbose", "uuid": "f08c6e61-3ff0-452f-a7e0-6ba062ecd710", "counter": 2, "stdout": "\u001b[1;35m(/workspaces/ensf400-lab5-ansible), ignoring it as an ansible.cfg source. For\u001b[0m", "start_line": 1, "end_line": 2, "runner_ident": "9677bee8-e398-4719-ae84-f99885399d93", "created": "2024-03-24T19:33:50.830475"}

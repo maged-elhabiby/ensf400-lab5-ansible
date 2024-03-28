@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "ce2d8583-2460-4b5d-b9ef-cdc698fe0098", "counter": 20, "stdout": "\u001b[1;35m[WARNING]: Platform linux on host managedhost-app-3 is using the discovered\u001b[0m", "start_line": 16, "end_line": 17, "runner_ident": "fb8e093a-ec58-4785-83ba-deb6fa6d4655", "created": "2024-03-28T01:13:36.790686"}

@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "10fa15f3-6645-4989-9be3-047792bba22a", "counter": 4, "stdout": "\u001b[0;31mSyntax Error while loading YAML.\u001b[0m", "start_line": 3, "end_line": 4, "runner_ident": "d4ae7985-371c-4a03-ba57-bb954e0435b8", "created": "2024-03-24T21:21:48.978578"}
